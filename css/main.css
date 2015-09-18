@@ -10,9 +10,25 @@ body {
 	margin: 0;
 }
 
+.buy {
+	position: absolute;
+	top: 20px;
+	right: 10px;
+
+}
+
+.logo {
+	position: absolute;
+	top: 10px;
+	width: 13%;
+	padding-left: 10px;
+}
+
 h1 {
 	margin: 0;
 	text-align: center;
+	font-size: 20pt;
+	padding: 10px;
 }
 
 nav {
@@ -41,29 +57,28 @@ nav a {
 h2{
 	margin: 0;
 	padding-left: 15px;
+	padding-top: 0.5em;
 }
 
 figcaption {
-	padding-bottom: 3em;
+	padding: 0em 10px 0.5em;
+	margin: 0;
+	color: #fff;
+	text-align: center;
+	position: relative;
+	display: block;
+	font-size: 12pt;
 }
 
 figure {
 	margin: 0;
 }
 
-.intro {
-  margin: 0;
-  padding: 3em 15px 1em;
-  color: #fff;
-  font-size: 30pt;
-  font-weight: bold;
-  text-align: center;
-}
 
 .banner {
-	background-image: url("../images/maerten-van-heemskerck.jpg");
+	background: url("../images/maerten-van-heemskerck.jpg") center center / cover no-repeat;
 	margin: 0;
-	height:100%;
+	width:100%;
 }
 
 img {
