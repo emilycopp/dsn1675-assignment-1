@@ -53,6 +53,7 @@ h1 {
 h2{
 	text-align: center;
 	margin:0;
+	clear: both;
 }
 
 figure {
@@ -75,7 +76,7 @@ figure {
 }
 
 .banner h2 {
-	padding-top: 20px;
+	padding-top: 30px;
 }
 
 img {
@@ -176,6 +177,10 @@ p {
 	.nav li {
 		display: inline-block;
 	}
+
+.footer {
+	text-align: center;
+}
 
 	.footer li {
 		display: inline-block;
