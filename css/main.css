@@ -54,6 +54,7 @@ h2{
 	text-align: center;
 	margin:0;
 	clear: both;
+	padding-top: 20px;
 }
 
 figure {
@@ -211,7 +212,11 @@ p {
 	}
 
 	.tickets {
-		padding: 20px 0;
+		padding: 20px 10px;
+	}
+
+	h2 + p {
+		text-align: center;
 	}
 
 		ol {
@@ -220,3 +225,52 @@ p {
 
 }
 
+@media only screen and (min-width: 75em) {
+
+	.wrapper{
+		max-width: 45em;
+		margin: 0 auto;
+	}
+}
+
+@media print {
+
+	.buy {
+		display: none;
+	}
+
+	nav {
+		display: none;
+	}
+
+	.left {
+		float: left;
+		width: 50%;
+}
+
+	.right {
+		float: right;
+		clear: right;
+		width: 50%;
+}
+
+	.bottom {
+		width: 50%;
+	}
+
+	.learn {
+		display: none;
+	}
+
+	.banner {
+		color: #000;
+	}
+
+	.schedule {
+		text-align: left;
+	}
+
+	a {
+		color: #000;
+	}
+}
