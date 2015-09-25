@@ -11,63 +11,48 @@ body {
 }
 
 .buy {
-	position: absolute;
-	top: 20px;
-	right: 10px;
-
+	display: block;
+	margin: 0 auto;
+	text-align: right;
+	padding-right: 15px;
 }
 
 .logo {
-	position: absolute;
-	top: 10px;
-	width: 13%;
-	padding-left: 10px;
+	display: block;
+	margin: 0 auto;
+	padding: 0;
+	width: 20%;
 }
 
 h1 {
 	margin: 0;
 	text-align: center;
-	font-size: 20pt;
+	font-size: 1.5rem;
 	padding: 10px;
 }
 
-nav {
+.nav {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
 	background-color: #835040;
 }
 
-nav ul {
-	margin: 0;
-	padding-top: 10px;
-	padding-bottom: 10px;
-	padding-left: 0;
-}
-
-nav li {
-	list-style: none;
-	display: inline-block;
-	text-align: center;
-	margin: 0;
-	width: 23%;
-}
-nav a {
+.nav a {
+	display: block;
 	text-decoration: none;
 	color: #000;
+	padding: .5em 1em;
+}
+
+.nav ul {
+	margin: 0;
+	padding: 0;
 }
 
 h2{
-	margin: 0;
-	padding-left: 15px;
-	padding-top: 0.5em;
-}
-
-figcaption {
-	padding: 0em 10px 0.5em;
-	margin: 0;
-	color: #fff;
 	text-align: center;
-	position: relative;
-	display: block;
-	font-size: 12pt;
+	margin:0;
 }
 
 figure {
@@ -77,12 +62,27 @@ figure {
 
 .banner {
 	background: url("../images/maerten-van-heemskerck.jpg") center center / cover no-repeat;
+	width: 100%;
 	margin: 0;
-	width:100%;
+	position: relative;
+	color: #fff;
+	text-align: center;
+	display: block;
+	font-size: 12pt;
+}
+
+.banner p {
+	padding-bottom: 15px;
+}
+
+.banner h2 {
+	padding-top: 0;
 }
 
 img {
 	width: 100%;
+	padding: 15px;
+	padding-top: 10px;
 }
 
 
@@ -96,43 +96,72 @@ h3 {
 	margin: 15px;
 }
 
-.center {
-	text-align: center;
-}
-
 ul {
 	list-style-type: none;
 	padding: 15px;
 }
 
-dl {
+dt {
 	padding-left: 15px;
-}
-
-dl dd {
+	padding-right: 5px;
 	margin: 0;
-	display: block;
+	font-weight: bold;
 }
 
-dl dt {
-	display: inline-block;
+dd {
+	display: block;
+	margin: 0;
+}
+
+.atlantis {
+	background: url("../images/maroti-atlantisz.jpg") center center / cover no-repeat;
+	margin: 0;
+	width:100%;
+	position: relative;
+	padding: 2em 15px 0.5em;
+	color: #000;
+	text-align: center;
+	display: block;
+	font-size: 12pt;
+}
+
+.date {
+	float: left;
+	text-align: center;
+}
+
+.builder{
+	float: left;
+	text-align: center;
+}
+
+.location {
+	float: left;
+	text-align: center;
 }
 
 a {
 	padding-left: 15px;
 	text-decoration: none;
+	clear: left;
 }
 
-.footer li {
-	font-size: 10pt;
-	list-style: none;
-	text-align: center;
+.footer {
 	margin: 0;
 	padding: 0;
-	width: 19%;
+	list-style-type: none;
+	background-color: #835040;
 }
 
 .footer a {
+	display: block;
+	text-decoration: none;
+	color: #000;
+	padding: .5em 1em;
+}
+
+.footer ul {
+	margin: 0;
 	padding: 0;
 }
 
