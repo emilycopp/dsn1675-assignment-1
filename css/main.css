@@ -273,4 +273,8 @@ p {
 	a {
 		color: #000;
 	}
+
+	.not {
+		display: none;
+	}
 }
